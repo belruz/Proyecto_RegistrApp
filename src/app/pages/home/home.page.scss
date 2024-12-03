@@ -1,0 +1,53 @@
+#content {
+  background-image: url(../../../../assets/img/backpurple.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ocupa el 100% de la altura de la ventana */
+  width: 100%; /* Ocupa el 100% de la anchura */
+}
+
+#container-home-cont {
+  background-color: white;
+  width: 90%; /* Ajusta el ancho según lo desees */
+  max-width: 400px; /* Limita el ancho máximo */
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Agrega una sombra sutil */
+  text-align: center; /* Centra el texto en el contenedor */
+}
+
+ion-card-title {
+  text-align: center; /* Centra el texto en los títulos */
+}
+
+ion-button {
+  --background: purple; /* Morado */
+  --color: white; /* Color del texto */
+  --border-radius: 8px; /* Bordes redondeados */
+  --padding-start: 20px;
+  --padding-end: 20px;
+}
+
+ion-button:hover {
+  --background: #9c4dcc; /* Color morado más claro cuando se pasa el ratón por encima */
+}
+
+/* Hacer ion-item transparente */
+ion-item {
+  --background: transparent; /* Fondo transparente */
+  --box-shadow: none; /* Elimina la sombra del ion-item */
+  padding: 0; /* Ajusta el padding si es necesario */
+}
+
+/* Hacer input dentro del ion-item también transparente */
+ion-item ion-input {
+  --background: transparent; /* Fondo transparente para el input */
+  --box-shadow: none; /* Elimina la sombra del input */
+}
+
+ion-item ion-input .input-native {
+  color: white; /* Asegura que el texto dentro del input sea visible */
+}

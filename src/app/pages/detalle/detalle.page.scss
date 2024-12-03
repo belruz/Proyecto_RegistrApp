@@ -1,0 +1,44 @@
+.text-center {
+    text-align: center;
+  }
+  
+  ion-button {
+    font-size: 14px; // Ajusta el tamaño de la fuente si es necesario
+  }
+
+  /* styles.css o en un archivo .scss local */
+.botonmorado {
+  --background: #6a0dad; /* Fondo morado */
+  --background-activated: #5c0ba6;
+  --background-focused: #7b1bde;
+  --background-hover: #7b1bde;
+  --color: #ffffff; /* Texto blanco */
+}
+
+/* src/global.scss */
+ion-content {
+  --background: none; /* Quita el color de fondo predeterminado */
+  background-image: url(../../../../assets/img/backpurple.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+p{
+    color: black;
+}
+
+/* Estilo para centrar solo el QR */
+.qr-container {
+    display: flex;
+    flex-direction: column;  /* Alinea los elementos en columna (QR y el botón) */
+    justify-content: center;  /* Centra el QR verticalmente */
+    align-items: center;      /* Centra el QR horizontalmente */
+    height: 100%;             /* Asegura que ocupe toda la altura disponible */
+    width: 100%;              /* Asegura que ocupe toda la anchura disponible */
+  }
+  
+  /* Estilo para el botón, asegurando que esté debajo del QR */
+  .qr-container ion-button {
+    margin-top: 20px;  /* Agrega un margen para separar el botón del QR */
+  }
+  

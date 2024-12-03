@@ -1,0 +1,128 @@
+/* Estilo para el texto centrado */
+.text-center {
+    text-align: center;
+  }
+  
+  ion-button {
+    font-size: 14px; /* Ajusta el tamaño de la fuente si es necesario */
+    --background: purple; /* Fondo morado */
+    --background-activated: #5c0ba6;
+    --background-focused: #7b1bde;
+    --background-hover: #7b1bde;
+    --color: #ffffff; /* Texto blanco */
+  }
+  
+  /* Estilo para el botón morado */
+  .botonmorado {
+    --background: purple; /* Fondo morado */
+    --background-activated: #5c0ba6;
+    --background-focused: #7b1bde;
+    --background-hover: #7b1bde;
+    --color: #ffffff; /* Texto blanco */
+  }
+  
+  /* Estilo global para el contenido */
+  ion-content {
+    --background: none; /* Quita el color de fondo predeterminado */
+    background-image: url(../../../../assets/img/backpurple.jpg); /* Fondo con imagen */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: black;
+  }
+  
+  p {
+    color: black; /* Color de texto por defecto para los párrafos */
+  }
+  
+  /* Estilo para las tarjetas y contenido del curso */
+  ion-card {
+    margin: 20px 0; /* Agrega espacio alrededor de las tarjetas */
+  }
+  
+  ion-card img {
+    width: 100%; /* Asegura que la imagen de la tarjeta se ajuste al contenedor */
+    height: auto;
+  }
+  
+  ion-card-title {
+    font-size: 1.5em; /* Tamaño de la fuente para el título de la tarjeta */
+    font-weight: bold;
+    color: #333; /* Color de texto del título */
+  }
+  
+  ion-card-content p {
+    font-size: 1em; /* Tamaño de la fuente del contenido */
+    color: #555; /* Color de texto del contenido */
+  }
+  
+  /* Estilo para la información del usuario */
+  .user-info p {
+    font-size: 0.9em;
+    color: #777; /* Color de texto para la información del usuario */
+  }
+  
+  /* Estilo para el botón de reportar inasistencia */
+  ion-button[color="danger"] {
+    margin-top: 20px; /* Agrega espacio arriba del botón */
+  }
+  
+  /* Estilo para la lista de anuncios */
+  ion-list-header ion-label {
+    font-weight: bold;
+    font-size: 1.2em; /* Tamaño del título en la lista */
+  }
+  
+  ion-list-header {
+    background-color: #f1f1f1; /* Fondo de encabezado de la lista */
+  }
+  
+  ion-item {
+    padding: 10px; /* Espaciado de los ítems en la lista */
+  }
+  
+  ion-button[slot="end"] {
+    font-size: 12px; /* Ajusta el tamaño de los botones en los ítems */
+  }
+  
+  /* Estilo para el mensaje de "No hay anuncios disponibles" */
+  .no-data-message {
+    text-align: center;
+    color: #999;
+    font-size: 1.1em;
+    padding: 10px;
+  }
+  
+  /* Estilo para la lista de inasistencias */
+  ion-card {
+    margin: 20px 0;
+  }
+  
+  ion-list-header ion-label {
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+  
+  ion-item {
+    padding: 10px;
+  }
+  
+  ion-label h2 {
+    font-size: 1.1em;
+    color: #333;
+  }
+  
+  ion-label p {
+    font-size: 0.9em;
+    color: #777;
+  }
+  
+  /* Estilo para el mensaje de "No se encontraron inasistencias" */
+  .no-data-message {
+    text-align: center;
+    color: #000000;
+    font-size: 1.1em;
+    padding: 10px;
+    margin: 20px 0; /* Agrega espacio arriba y abajo del mensaje */
+  }
+  

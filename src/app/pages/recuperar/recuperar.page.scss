@@ -1,0 +1,83 @@
+#content {
+  background-image: url(../../../../assets/img/backpurple.jpg);
+  font-family: sans-serif;
+  height: 100vh; /* Ocupa toda la altura de la ventana */
+  width: 100%;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Asegura que el contenido esté centrado verticalmente */
+}
+
+#container-home-cont {
+  background-color: white; /* Fondo blanco sólido */
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000; /* Texto negro para contraste */
+  padding: 15px;
+  max-width: 350px;
+  min-width: 80%;
+  height: auto; /* Ajusta la altura según el contenido */
+  max-height: 470px;
+  margin: auto; /* Centra horizontal y verticalmente */
+  border-radius: 20px; /* Bordes redondeados */
+  position: relative; /* Para futuros posicionamientos relativos */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Agrega sombra para profundidad */
+}
+
+
+ion-toolbar {
+  --background: white; /* Fondo del toolbar */
+  --color: black; /* Color del texto */
+}
+
+ion-title {
+  ---background:white;
+  color: hsl(0, 0%, 100%);
+  font-size: 35px;
+  text-align: center;
+}
+
+ion-card-title {
+  color: black;
+  font-size: 35px;
+  text-align: center;
+}
+
+ion-button {
+  --background: purple; /* Fondo de los botones */
+  --color: #ffffff; /* Texto de los botones */
+  font-family: sans-serif;
+  --border-radius: 10px; /* Bordes redondeados */
+  --padding-start: 15px;
+  --padding-end: 15px;
+  --padding-top: 5px;
+  --padding-bottom: 10px;
+}
+
+ion-button:hover {
+  --background: #4c4c4c; /* Fondo al pasar el mouse */
+}
+
+ion-input {
+  --background: white; /* Fondo de los inputs */
+  --color: black; /* Color del texto */
+  --border-radius: 10px; /* Bordes redondeados */
+  --padding-start: 15px;
+  --padding-end: 15px;
+  --padding-top: 5px;
+  --padding-bottom: 10px;
+  --placeholder-color: #aaaaaa; /* Color del texto de marcador */
+}
+
+ion-input .input-native {
+  color: white; /* Asegura que el texto ingresado sea visible */
+}
+
+ion-item {
+  --background: white; /* Fondo transparente */
+  --box-shadow: none; /* Elimina la sombra */
+  padding: 0; /* Ajusta el padding */
+}
