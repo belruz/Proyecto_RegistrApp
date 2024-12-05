@@ -39,19 +39,19 @@ RegistrApp es una aplicación desarrollada para simplificar el paso de la asiste
       
 ![Captura de pantalla del login](images/login.jpg)
 
-3. **Vista de cursos impartidos y crear nuevo curso**   
+2. **Vista de cursos impartidos y crear nuevo curso**   
 
 ![Captura de pantalla del login](images/vista_cursos_docente.jpg)
 
-6. **Crear nueva clase y anuncio**  
+3. **Crear nueva clase y anuncio**  
 
 ![Captura de pantalla del login](images/detalles_curso_docente.jpg)
 
-8. **Ver detalles de la clase**
+4. **Ver detalles de la clase**
 
 ![Captura de pantalla del login](images/detalles_de_la_clase_docente.jpg)
 
-10. **Perfil de docente y cambio de contraseña**
+5. **Perfil de docente y cambio de contraseña**
 
 ![Captura de pantalla del login](images/perfil_docente.jpg)
 
