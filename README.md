@@ -6,7 +6,7 @@ RegistrApp es una aplicación desarrollada para simplificar el paso de la asiste
 
 ## Instrucciones para ingresar a la aplicación RegistrApp
 
-1. Descarga [Aquí](https://github.com/belruz/Proyecto_RegistrApp/releases/download/v2.0.1/RegistrApp.apk) el archivo apk.  
+1. Descarga [aquí](https://github.com/belruz/Proyecto_RegistrApp/releases/download/v2.0.1/RegistrApp.apk) el archivo apk.  
 2. Instálalo en tu dispositivo Android.  
 3. Ingresa tus credenciales para ingresar como **docente** o **alumno**.  
 
