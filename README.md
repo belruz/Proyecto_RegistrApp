@@ -18,7 +18,7 @@ RegistrApp es una aplicación desarrollada para simplificar el paso de la asiste
    
 ![Captura de pantalla del login](images/login.jpg)
 
-2.  **Vista de cursos inscritos**
+2.  **Vista de cursos inscritos y escanear QR**
 
 ![Captura de pantalla del login](images/vista_cursos_estudiante.jpg)
 
