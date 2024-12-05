@@ -14,20 +14,48 @@ RegistrApp es una aplicación desarrollada para simplificar el paso de la asiste
 
 ## Funciones principales para el alumno
 
-1. **Login**  
-2. **Vista de cursos inscritos**  
-3. **Ver detalles del curso**  
-4. **Reportar inasistencia**  
-5. **Perfil de estudiante**  
-6. **Escanear código QR**  
+1. **Login**
+   
+![Captura de pantalla del login](images/login.jpg)
+
+2.  **Vista de cursos inscritos**
+
+![Captura de pantalla del login](images/vista_cursos_estudiante.jpg)
+
+3. **Ver detalles del curso y reportar inasistencia**
+
+![Captura de pantalla del login](images/detalles_curso_estudiante.jpg)
+
+4. **Perfil de estudiante y cambio de contraseña**
+
+![Captura de pantalla del login](images/perfil_estudiante.jpg)
+
 
 ---
 
 ## Funciones principales para docente
 
-1. **Login**  
-2. **Vista de cursos impartidos**  
-3. **Crear nuevo curso**  
-4. **Crear nueva clase y anuncio**  
-5. **Ver detalles de curso y generar QR**  
-6. **Perfil de docente**  
+1. **Login**
+      
+![Captura de pantalla del login](images/login.jpg)
+
+3. **Vista de cursos impartidos y crear nuevo curso**   
+
+![Captura de pantalla del login](images/vista_cursos_docente.jpg)
+
+6. **Crear nueva clase y anuncio**  
+
+![Captura de pantalla del login](images/detalles_curso_docente.jpg)
+
+8. **Ver detalles de la clase**
+
+![Captura de pantalla del login](images/detalles_de_la_clase_docente.jpg)
+
+10. **Perfil de docente y cambio de contraseña**
+
+![Captura de pantalla del login](images/perfil_docente.jpg)
+
+6. **Generar QR**
+
+![Captura de pantalla del login](images/qr_docente.jpg)
+
