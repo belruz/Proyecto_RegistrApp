@@ -1,17 +1,33 @@
-# Instrucciones para Ejecutar la Aplicación Web
+# RegistrApp
 
-## Pasos
+RegistrApp es una aplicación desarrollada para simplificar el paso de la asistencia en la sala de clases. El docente crea un código QR de la clase para que los alumnos lo escaneen a través de RegistrApp y así registren su asistencia.
 
-1. Después de clonar o descargar el proyecto, ábrelo con **Visual Studio Code**.
+---
 
-2. Abre una terminal en Visual Studio Code y ejecuta:  
-   ```bash
-   npm install --legacy-peer-deps
+## Instrucciones para ingresar a la aplicación RegistrApp
 
-3. Para iniciar la aplicación en el navegador, ejecuta:  
-   ```bash
-   ionic serve
+1. Desde la sección [Releases](https://github.com/belruz/Proyecto_RegistrApp/releases/tag/v2.0.1), descarga el archivo APK.  
+2. Instálalo en tu dispositivo Android.  
+3. Ingresa tus credenciales para ingresar como **docente** o **alumno**.  
 
-4. Se abrirá automáticamente la página de login en tu navegador.
-   
-5. Ingresa con tus credenciales para comenzar a usar la aplicación.
+---
+
+## Funciones principales para el alumno
+
+1. **Login**  
+2. **Vista de cursos inscritos**  
+3. **Ver detalles del curso**  
+4. **Reportar inasistencia**  
+5. **Perfil de estudiante**  
+6. **Escanear código QR**  
+
+---
+
+## Funciones principales para docente
+
+1. **Login**  
+2. **Vista de cursos impartidos**  
+3. **Crear nuevo curso**  
+4. **Crear nueva clase y anuncio**  
+5. **Ver detalles de curso y generar QR**  
+6. **Perfil de docente**  
